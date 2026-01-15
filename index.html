@@ -1,16 +1,195 @@
 <!DOCTYPE html>
 <html lang="ta">
 <head>
-  <meta charset="UTF-8">
-  <title>Live Notice</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pongal Vilayattu Potigal 2026</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --primary:#c62828;
+  --secondary:#2e7d32;
+  --accent:#f57c00;
+  --dark:#263238;
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Noto Sans Tamil',sans-serif;}
+body{
+  background:url("av/bg.jpg") center/cover no-repeat fixed;
+  position:relative;
+  min-height:100vh;
+}
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:rgba(255,248,225,0.92);
+  backdrop-filter:blur(4px);
+  z-index:-1;
+}
+
+/* HEADER */
+header{display:flex;align-items:center;padding:15px;}
+.logo img{width:200px;height:200px;border-radius:50%;animation:pulse 2s infinite;}
+
+.container{max-width:900px;margin:auto;padding:15px;}
+
+/* FESTIVAL TITLE */
+.main-title{text-align:center;margin:25px 0;animation:zoomIn 1s ease;}
+.top-line{color:#1b5e20;font-weight:800;font-size:1.15rem;}
+.big-title{
+  margin:8px 0;
+  font-size:2.4rem;
+  font-weight:900;
+  line-height:1.2;
+  background:linear-gradient(90deg,#b71c1c,#ff6f00,#2e7d32);
+-webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  text-shadow:3px 3px 12px rgba(0,0,0,0.25);
+}
+.big-title span{font-size:1.8rem;}
+.sub-line{
+  display:inline-block;
+  margin-top:8px;
+  padding:6px 18px;
+  border-radius:25px;
+  background:#fff3cd;
+  border:2px dashed #ff6f00;
+  color:#bf360c;
+  font-weight:800;
+  box-shadow:0 0 15px rgba(255,111,0,0.5);
+}
+
+/* LIVE */
+.live-btn{
+  margin:0 auto 18px;
+  width:170px;
+  background:#d50000;
+  color:#fff;
+  padding:12px;
+  text-align:center;
+  border-radius:30px;
+  font-weight:700;
+  animation:glow 1.5s infinite;
+}
+
+/* CARD */
+.card{
+  background:#fff;
+  border-radius:18px;
+  padding:18px;
+  margin:15px 0;
+  box-shadow:0 6px 15px rgba(0,0,0,.15);
+  animation:fadeUp .8s ease;
+}
+.card h2{text-align:center;color:#1565c0;margin-bottom:12px;}
+ol{padding-left:20px;}
+li{margin:7px 0;font-weight:600;}
+
+/* PRIZE */
+.prize{
+  background:linear-gradient(135deg,#ffe082,#ffcc80);
+  border-radius:18px;
+  padding:18px;
+  text-align:center;
+  font-weight:800;
+  margin-top:15px;
+}
+
+/* Animations */
+@keyframes pulse{50%{transform:scale(1.1);}}
+@keyframes glow{50%{box-shadow:0 0 25px rgba(213,0,0,.7);}}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;}}
+@keyframes zoomIn{from{transform:scale(.8);opacity:0;}to{transform:scale(1);opacity:1;}}
+@keyframes blink{50%{opacity:.5;}}
+</style>
 </head>
+
 <body>
 
-  <h1 style="color:red; text-align:center;">
-    15/1/2026 அன்று மதியம் 2 மணி அளவில் Live வந்து பாருங்கள்
-    
-  </h1>
-  <img src="Internal storage/DCIM/Camera/IMG_20260111_204701.jpg">
+<header>
+  <div class="logo">
+    <img src="av/logo.png" alt="logo">
+  </div>
+</header>
+
+<div class="container">
+
+<div class="main-title">
+  <div class="top-line">நம்ம சிக்காடு குழு நடத்தும்</div>
+  <div class="big-title">ஜந்தாம் ஆண்டு <br><span>பொங்கல் விழா போட்டிகள் – 2026</span></div>
+  <div class="sub-line">பிள்ளையார் கோவில் தெரு, சிக்காடு</div>
+</div>
+
+<div class="live-btn">🔴 LIVE</div>
+
+<div class="card">
+<h2>📅 15/01/2026 | ⏰ 1.00 PM – 9.30 PM</h2>
+<ol>
+<li>🍚 சமத்துவப் பொங்கல்</li>
+<li>🚴 சைக்கிள் வேகப் போட்டி</li>
+<li>🐢 மெதுவாக சைக்கிள் ஓட்டுதல்</li>
+<li>🏃 சாக்குப் போட்டி</li>
+<li>🏃‍♂️ ஒட்டப்பந்தயம்</li>
+<li>🪵 குச்சி சுத்தும் போட்டி</li>
+<li>🍞 பன்னு சாப்பிடுதல்</li>
+<li>💣 குண்டு எரிதல்</li>
+<li>🪢 கயிறு இழுத்தல்</li>
+<li>🍪 பிஸ்கட் சாப்பிடுதல்</li>
+<li>🧱 செங்கல் தூக்குதல்</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>📅 16/01/2026 | ⏰ காலை 4.00 AM – 8.00 AM</h2>
+<p style="text-align:center;font-weight:700;">🎨 கோலப் போட்டி</p>
+</div>
+
+<div class="card">
+<h2>📅 16/01/2026 | ⏰ மாலை 3.00 PM – 9.30 PM</h2>
+<ol>
+<li>🤼‍♂️ கபடி</li>
+<li>🪙 பாட்டிலில் காயின் போடுதல்</li>
+<li>🥨 முருக்கு சாப்பிடுதல்</li>
+<li>🖊️ பாட்டிலில் பேனா வைத்தல்</li>
+<li>🎵 மியூசிக் சேர்</li>
+<li>🏃‍♀️ கோ-கோ</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>📅 17/01/2026 | ⏰ மாலை 3.30 PM – 10.00 PM</h2>
+<ol>
+<li>🎈 காலில் பலூன் உடைத்தல்</li>
+<li>😷 முகத்தில் மாஸ்க் & தண்ணீர் டாஸ்க்</li>
+<li>🎈 பலூன் ஒட்டப்பந்தயம்</li>
+<li>🍎 ஆப்பிள் சாப்பிடுதல்</li>
+<li>🥥 உறியடி</li>
+</ol>
+</div>
+
+<div class="prize">🏆 இரவு 10.00 PM – 11.00 PM பரிசளிப்பு விழா</div>
+
+<h3 style="
+background:#fff3cd;
+color:#8a6d3b;
+border:2px solid #f0ad4e;
+padding:14px;
+border-radius:12px;
+text-align:center;
+font-weight:800;
+box-shadow:0 0 15px rgba(240,173,78,0.6);
+animation:blink 1.5s infinite;
+">
+⚠️ இன்னும் நேரம் இருந்தால் போட்டியை இன்னும் வைப்போம்
+</h3>
+
+</div>
+<audio id="bgAudio" autoplay loop>
+  <source src="av/song.mp3" type="audio/mpeg">
+  உங்கள் உலாவியில் ஆடியோ பிளே செய்ய முடியவில்லை.
+</audio>
 
 </body>
 </html>
